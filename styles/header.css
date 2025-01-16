@@ -1,0 +1,123 @@
+.header {
+    padding: 65px 0 114px 0;
+     background-image: url(../resources/restaurant__big.png), url(../resources/line__big.png);
+    background-position: bottom -10px right 20%, bottom -32px left -1%; 
+    background-repeat: no-repeat;
+}
+
+.header__container {
+    position: relative;
+    padding: 60px 30px 30px 30px;
+    display: flex;
+    gap: 120px;
+
+}
+
+
+.header__container-logo {
+    display: block;
+    width: 215px;
+    height: 85px;
+    margin-bottom: 85px;
+    
+}
+
+.header__container-title {
+    overflow: hidden;
+    font-size: 60px;
+    line-height: 127%;
+    animation: 
+    typing 5s steps(50, end) forwards;
+    white-space: nowrap; 
+    margin-bottom: 126px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+.header__container-title span {
+    padding: 0 15px 10px 15px;
+    background: #DDFF00;
+}
+
+.header__image {
+    display: block;
+    
+}
+
+
+@media (max-width: 1450px) {
+    .header {
+         background-image: url(../resources/restaurant.png), url(../resources/line.png);
+        background-position: bottom 50px right 6%, top -10px left -35%; 
+    }
+}
+
+@media (max-width: 1150px) {
+    .header {
+        background-image: url(../resources/restaurant_1100.png), url(../resources/line_1100.png);
+       background-position: bottom 50px right -11%, top -30px left -63%; 
+   }
+
+   .header__container-logo {
+    margin-bottom: 40px;
+    
+}
+
+.header__container-title {
+    margin-bottom: 70px;
+}
+
+ 
+}
+
+@media (max-width: 960px) {
+    .header {
+        padding: 30px 0 80px 0;
+        background-image: url(../resources/restaurant-tablet.png), url(../resources/line-tablet.png);
+       background-position: top 50px right 0, top -50px left -5%; 
+   }
+
+   .header__container {
+    padding: 30px 20px 0 20px;
+  
+
+}
+
+   .header__container-logo {
+    width: 160px;
+    height: 55px;
+    margin-bottom: 38px;
+    
+}
+
+.header__container-title {
+    font-size: 38px;
+    line-height: 127%; 
+    margin-bottom: 60px;
+}
+
+.header__container-title span {
+    padding: 0 10px 5px 10px;
+    background: #DDFF00;
+}
+
+}
+
+@media (max-width: 640px) {
+    .header {
+        height: 880px;
+        background-image: url(../resources/restaurant-tablet.png), url(../resources/line-tablet.png);
+       background-position: bottom -5px right 50%, top -50px left -5%; 
+   }
+
+   .header__container-logo {
+    width: 130px;
+    height: 55px;
+    margin-bottom: 16px;
+    
+}
+}
+
